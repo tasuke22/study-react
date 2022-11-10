@@ -1,7 +1,7 @@
 import React from "react";
-import classes from "./Main.module.css";
-import { Links } from "./Links";
-import { Headline } from "./Headline";
+import { Headline } from "src/components/Headline";
+import { Links } from "src/components/Links";
+import classes from "src/components/Main/Main.module.css";
 
 export function Main(props: any) {
   return (
